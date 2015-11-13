@@ -13,26 +13,26 @@
         <a href="#sakums">
           <img src="img/scroll.png"> </a>
     </div>
-    
+
     <div class="header">
       <div class="logo">
+      <a href="#top" id="top">
         <img class="logo-image" src="img/logo.png" alt="logo">
-      </div>
+      </a>
+    </div>
       <div class="navigation-container">
         <div class="menu">
-          <ul>
-            <li><a href="#sakums" id="sakums">Sākums</a></li>
-            <li><a href="#pakalpojumi">Pakalpojumi</a></li>
-            <li><a href="#par mums">Par mums</a></li>
-            <li><a href="#klienti">Klienti</a></li>
-            <li><a href="#kontakti">Kontakti</a></li>
-          </ul>
+
+            <a href="#sakums" id="sakums">Sākums</a>
+            <a href="#pakalpojumi">Pakalpojumi</a>
+            <a href="#par mums">Par mums</a>
+            <a href="#klienti">Klienti</a>
+            <a href="#kontakti">Kontakti</a>
+
         </div>
         <div class="languages">
-          <ul>
-          <li class="ru"> <a href="#"> RU </a> </li>
-          <li> <a href="#"> ENG </a> </li>
-        </ul>
+        <a class="language-link" href="#"> RU </a>
+        <a class="language-link" href="#"> ENG </a>
         </div>
         <div class="clear"></div>
       </div>
@@ -40,18 +40,19 @@
     </div>
     <div class="slider">
       <div class="arrow">
-      </div>
-      <div class="arrow1">
+
+      <button class="arrow1">
         <img src="img/arrow1.png">
-      </div>
-       <div class="arrow2">
+      </button>
+       <button class="arrow2">
          <img src="img/arrow2.png">
-      </div>
+      </button>
+        </div>
       <img class="slider-image" src="img/slider.jpg">
       <div class="slider-link-container-clear">
-        <span class="slider-link float-left"></span>
-        <span class="slider-link-centr float-left"></span>
-        <span class="slider-link float-left"></span>
+        <button class="slider-link float-left"></button>
+        <button class="slider-link float-left"></button>
+        <button class="slider-link float-left"></button>
       </div>
       <div class="slidertext">
         <div class="slider-header">
@@ -135,13 +136,13 @@
            <h1> PAKALPOJUMU IZCENOJUMI</h1>
          </div>
          <div class="prices-block1 float-left">
-         <p> Par topogrāfiskās informācijas izsniegšanu (tajā skaitā ielu sarkano līniju), pieņemšanu, pārbaudi,
+         <p class="prices-header-text"> Par topogrāfiskās informācijas izsniegšanu (tajā skaitā ielu sarkano līniju), pieņemšanu, pārbaudi,
             ievadīšanu datu planšetēs, ievadīšanu datubāzē, reģistrēšanu un nosūtīšanu pašvaldībai:</p>
             <table class="prices-table">
               <thead>
               <tr class="">
                 <th> Pakalpojums </th>
-                <th> EUR </th>
+                <th class="euro"> EUR </th>
               </tr>
             </thead>
             <tbody>
@@ -158,20 +159,22 @@
                 <td class="prices-table-td-font-bold">31,30 </td>
               </tr>
               <tr class="border-table">
-                <td >pie objekta platības virs 1.0 ha, papildus par katru nākamo ha, bet ne vairāk kā 135.17 EUR kopā par vienu objektu</td>
+                <td >pie objekta platības virs 1.0 ha, papildus par katru nākamo ha,     <br>
+                   <div class="prices-table-coment-size">bet ne vairāk kā 135.17 EUR kopā par vienu objektu</div>
+                 </td>
                 <td class="last-price-cell prices-table-td-font-bold"> 10,67 </td>
               </tr>
             </tbody>
             </table>
-            <p class="prices-table-p-font-size">objektos, kuros ir 2 (divas) vai mazāk apakšzemes komunikācijas, tāmei tiek piemērots koeficients 0.8 </p>
+            <p class="prices-table-last-row-coment">objektos, kuros ir 2 (divas) vai mazāk apakšzemes komunikācijas, tāmei tiek piemērots koeficients 0.8 </p>
           </div>
             <div class="prices-block2 float-left">
-            <p>Par izpilddokumentācijas (tajā skaitā inženierkomunikāciju un ceļu izpildmērījumi) pieņemšanu, pārbaudi, ievadīšanu datu planšetēs, ievadīšanu datubāzē, reģistrēšanu un nosūtīšanu pašvaldībai:
+            <p class="prices-header-text">Par izpilddokumentācijas (tajā skaitā inženierkomunikāciju un ceļu izpildmērījumi) pieņemšanu, pārbaudi, ievadīšanu datu planšetēs, ievadīšanu datubāzē, reģistrēšanu un nosūtīšanu pašvaldībai:
                 <p>
                   <table class="prices-table">
                     <tr>
                       <th> Pakalpojums </th>
-                      <th> EUR </th>
+                      <th class="euro"> EUR </th>
                       </th>
                     </tr>
                     <tr class="filled-bg">
@@ -179,17 +182,17 @@
                       <td class="prices-table-td-font-bold"> 21,34 </td>
                     </tr>
                     <tr>
-                      <td>pie trases garuma virs 300 m, papildus par katriem nākamajiem 100 m, bet ne vairāk kā 135.17 EUR kopā par vienu objektu </td>
+                      <td>pie trases garuma virs 300 m, papildus par katriem nākamajiem 100 m,
+                      bet ne vairāk kā 135.17 EUR kopā par vienu objektu </td>
                       <td class="prices-table-td-font-bold">24,19 </td>
                     </tr>
                     <tr class="filled-bg">
-                      <th> Par vienreizēju topogrāfiskās informācijas sagatavošanu un izsniegšanu digitālā formā (objekta platība tiek noteikta pa pieprasīto kontūru):
-                      </th>
-                      <td> </td>
+                      <td colspan="2"> Par vienreizēju topogrāfiskās informācijas sagatavošanu un izsniegšanu digitālā formā (objekta platība tiek noteikta pa pieprasīto kontūru):
+                      </td>
                     </tr>
                     <tr>
                       <td> objekta platība līdz 25ha (ieskaitot), viens objekts </td>
-                      <td class="border-td prices-table-td-font-bold"> 2,85 </td>
+                      <td class=" prices-table-td-font-bold"> 2,85 </td>
                     </tr>
                     <tr class="filled-bg prices-table-tr-last-border">
                       <td>objekta platība virs 25ha, papildus par katru nākamo ha </td>
@@ -223,7 +226,7 @@
    <div class="about-us-person1 float-left">
      <div class="personal-info-container">
        <img src="_temp/edgars.png">
-       <h1 class="personal-info-devider">
+       <h1 class="personal-info-name">
          Edgars Ūdris
        </h1>
        <div >
@@ -266,7 +269,7 @@
    <div class="about-us-person2 float-left">
      <div class="personal-info-container">
        <img src="_temp/tomass.png">
-       <h1 class="personal-info-devider">
+       <h1 class="personal-info-name">
          Tomass Soopargs
        </h1>
        <div >
@@ -405,7 +408,7 @@
         <br>
         <textarea class="text-field" placeholder="Teksts..."></textarea>
         <br>
-        <input class="contact-form-battom"type="submit" value="Sutit &#8594;">
+        <input class="contact-form-button"type="submit" value="Sutit &#8594;">
       </form>
     </div>
   </div>
