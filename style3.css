@@ -253,12 +253,12 @@ a.language-link:hover{
     height: 1px;
     width: 56px;
     background: #C7C6BF;
-    position: relative;
     bottom: -100%;
     display: block;
-    margin: 10 auto;
+    
     bottom: -6px;
     left: -118px;
+    margin-top: 21px;
 }
 .service-block-content-block{
   width:292px;
