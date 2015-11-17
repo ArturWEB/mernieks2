@@ -25,7 +25,7 @@
   right:50px;
 }
 
-.arrow1{
+.slider-row-left{
   position:absolute;
   top: 270px;
   left:110px;
@@ -35,7 +35,7 @@
   border: none;
 }
 
-.arrow2{
+.slider-row-right{
   position:absolute;
   top: 270px;
   right: 100px;
@@ -45,7 +45,7 @@
   border: none;
 }
 
-.arrow1,.arrow2:hover{
+.slider-row-left,.slider-row-right:hover{
     cursor: pointer;
   }
 
@@ -160,7 +160,7 @@ button.slider-link:hover{
 
 .header .navigation-container .menu{
   height: 56px;
-  width: 499px;
+  width: 457px;
   float: left;
   border-right: 1px solid white;
 }
@@ -248,11 +248,18 @@ a.language-link:hover{
   width: 70px;
 }
 
-.service-content-devider{
-  border-bottom: 1px solid #C7C6BF;
-  width: 50px;
+.service-block-content-block p:after {
+    content: ' ';
+    height: 1px;
+    width: 56px;
+    background: #C7C6BF;
+    position: relative;
+    bottom: -100%;
+    display: block;
+    margin: 10 auto;
+    bottom: -6px;
+    left: -118px;
 }
-
 .service-block-content-block{
   width:292px;
   margin-left:10px;
@@ -334,7 +341,7 @@ margin: 0px 0px 40px 65px;
 }
 
 .prices-table-coment-size{
-  font-weight: 100;
+  font-size: 13px;
 }
 
 .prices-table .last-price-cell{
@@ -422,7 +429,7 @@ text-align:left;
   margin-bottom: 40px;
 }
 
- .about-us-text-p p{
+ .about-us-text p{
 color: #F2EBE1;
 text-align: left;
 line-height: 30px;
